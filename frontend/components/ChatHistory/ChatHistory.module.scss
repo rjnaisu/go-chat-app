@@ -1,0 +1,74 @@
+.chatHistory {
+  background-color: #f7f7f7;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
+
+  h2 {
+    margin: 0 0 1rem;
+    font-size: 1.25rem;
+    color: #0f172a;
+  }
+}
+
+.messageList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-height: 20rem;
+  overflow-y: auto;
+}
+
+.message {
+  background: white;
+  border-radius: 1rem;
+  padding: 0.9rem 1.1rem;
+  font-size: 0.95rem;
+  color: #0f172a;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+}
+
+.userMessage {
+  border-color: #e2e8f0;
+}
+
+.selfMessage {
+  border-color: #a5b4fc;
+  background: #eef2ff;
+}
+
+.systemNotice {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.systemNoticeJoin {
+  color: #1d4ed8;
+  border-color: #93c5fd;
+  background: #eff6ff;
+}
+
+.systemNoticeLeave {
+  color: #be123c;
+  border-color: #fecdd3;
+  background: #fff1f2;
+}
+
+.messageMeta {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #4338ca;
+  margin-bottom: 0.35rem;
+}
+
+.placeholder {
+  color: #64748b;
+  font-style: italic;
+}
